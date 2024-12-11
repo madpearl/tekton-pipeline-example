@@ -14,7 +14,7 @@ spec:
   - name: image-full-path-with-tag
     value: image-registry.openshift-image-registry.svc:5000/tekton-demo/spring-boot-docker:v1.1.0
   - name: deployment-manifest
-    value: https://raw.githubusercontent.com/brightzheng100/tekton-pipeline-example/master/manifests/deployment.yaml
+    value: https://raw.githubusercontent.com/madpearl/tekton-pipeline-example/master/manifests/deployment.yaml
   workspaces:
   - name: maven-settings
     configmap:
